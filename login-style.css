@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(155, 12, 198);
+}
+.container{
+    background-color: white;
+    margin-top: 100px;
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+}
+hr{
+    background-color:  rgb(155, 12, 198);
+    width:calc();
+    margin-bottom: 30px;
+}
+button{
+    background-color:  rgb(155, 12, 198);
+    padding: 10px;
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: blue;
+}
+.form-control{
+    height: 50px;
+    border: 1px solid rgb(155, 12, 198);
+}
+@media(max-width: 470px){
+    .container{
+        width: 100%;
+    }
+}
